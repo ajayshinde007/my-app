@@ -1,0 +1,20 @@
+[     490ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://www.cnn.com/:22424
+[     663ms] [WARNING] Unable to get WebChoices Preferences TIME OUT @ https://s.ntv.io/serve/load.js:1
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://krk2.kargo.com failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://hb.openwebmp.com failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://exchange.postrelease.com failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://www.cnn.com/:0
+[    1203ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.cnn.com/:0
+[    1240ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.cnn.com/:0
+[    3058ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    3074ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    3081ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    3342ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3463ms] [ERROR] Player | Player received error, stopping playback session: 760a168a-8d6e-4ec4-bb53-f36ff0d204d9 code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:1344
+[    3342ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3663ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0

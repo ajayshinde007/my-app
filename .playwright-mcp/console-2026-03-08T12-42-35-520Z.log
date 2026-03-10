@@ -1,0 +1,151 @@
+[     574ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://www.cnn.com/:13571
+[     970ms] [ERROR] %c TOS was NOT accepted, AdFuel will not load. background: red;color:white; @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-ce629a06dd9ae26fcf1778200af19977b8fd1d67d8bea457e8b6e0794672344a.min.js:0
+[    1626ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    1640ms] [ERROR] Not signed in with the identity provider. @ https://www.cnn.com/:0
+[    2080ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:22030:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:266456)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:266994)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:267901)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:227186)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:354908)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:344926)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:338260)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:310924 @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    2094ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:22030:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:266456)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:266994)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:267901)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:227186)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:354908)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:327101
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025302)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1027406)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025127) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    2095ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:22030:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:266456)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:266994)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:267901)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:227186)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:354908)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-ca8f994d/boltInstance:1:327269
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025302)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1027406)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025127) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    2304ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://tpc.googlesyndication.com') does not match the recipient window's origin ('https://www.cnn.com'). @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    2720ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    3114ms] [ERROR] Player | Player received error, stopping playback session: 12cc38f1-6ea4-45dd-a695-00e344edda57 code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:1344
+[    4475ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81
+[    5482ms] TypeError: Cannot read properties of undefined (reading 'track')
+    at c (https://www.cnn.com/:22349:1241)
+    at T (https://www.cnn.com/:22349:1442)
+[    5580ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://www.cnn.com/:14580
+[    6308ms] [WARNING] Unable to get WebChoices Preferences TIME OUT @ https://s.ntv.io/serve/load.js:1
+[    6322ms] [ERROR] Failed to load resource: the server responded with a status of 410 (Gone) @ https://ads.stickyadstv.com/user-matching?id=185&_fw_gdpr=0&_fw_gdpr_consent=:0
+[    6323ms] [ERROR] Failed to load resource: the server responded with a status of 410 (Gone) @ https://ads.stickyadstv.com/auto-user-sync:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://hb.openwebmp.com failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://exchange.postrelease.com failed. @ https://www.cnn.com/:0
+[    6486ms] [ERROR] Attestation check for Protected Audience on https://krk2.kargo.com failed. @ https://www.cnn.com/:0
+[    6581ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.cnn.com/:0
+[    7388ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://tpc.googlesyndication.com') does not match the recipient window's origin ('https://www.cnn.com'). @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    7548ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://id.geistm.com/m/OB/LJ7DrXww4_D28K3STtTlo1r-V8FqUO6BGWGRIuyRtEv5lztbHuE9AFbVoPIAZj9a:0
+[    7937ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603020101/pubads_impl.js?cb=31097036:18
+[    8073ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    8082ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    8126ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    8619ms] [ERROR] Player | Player received error, stopping playback session: 55852a42-532f-467d-8ec4-194440a51ee2 code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:1344
+[    8685ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603020101/pubads_impl.js?cb=31097036:18
+[    9192ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11552&gdpr=0&gdpr_consent=&redirect=https%3A%2F%2Fsync.outbrain.com%2Fcookie-sync%3Fp%3Dloopme%26initiator%3Dob%26obUid%3DLJ7DrXww4_D28K3STtTlo1r-V8FqUO6BGWGRIuyRtEv5lztbHuE9AFbVoPIAZj9a%26us_privacy%3D1YNN%26uid%3D%7Bviewer_token%7D:0
+[   10390ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   10398ms] Uncaught TypeError: Cannot read properties of null (reading 'parentNode')
+    at configMerge (https://ajs-assets.ftstatic.com/ftUtils.js:0:21441)
+    at i.onreadystatechange (https://ajs-assets.ftstatic.com/ftUtils.js:0:26429)
+[   10677ms] [WARNING] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ingored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning. @ https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js:7
+[   10822ms] [WARNING] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ingored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning. @ https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js:7
+[   11267ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://he.lijit.com/merge?pid=8105&event_type=email&lc_md5=49623e290d260af6ad0218b9255ea3ab&lc_sha1=24675831298bbef16ffb744bb55d13ce4a25db34&lc_sha256=45ce8246fea519550de3b6b3155988e8f17ba71204449a10b5ec43eca7b9f6bb&:0
+[   11267ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://he.lijit.com/merge?pid=8105&event_type=email&lc_md5=49623e290d260af6ad0218b9255ea3ab&lc_sha1=24675831298bbef16ffb744bb55d13ce4a25db34&lc_sha256=45ce8246fea519550de3b6b3155988e8f17ba71204449a10b5ec43eca7b9f6bb&gpp_s=DBABLA~BVQqAAAAAABY.QA&gpp_as=7:0
+[   11771ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://partners.tremorhub.com/sync?UIIQ=c85f6c81-e482-4894-a690-c5d3f5a442ed:0
+[   11803ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://pxl.iqm.com/i/ck/pubmatic?puid=98F2DEA0-C0ED-48C3-A9F8-6D4924BF4B60:0
+[   39067ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://he.lijit.com/merge?pid=8100&event_type=email&lc_md5=49623e290d260af6ad0218b9255ea3ab&lc_sha1=24675831298bbef16ffb744bb55d13ce4a25db34&lc_sha256=45ce8246fea519550de3b6b3155988e8f17ba71204449a10b5ec43eca7b9f6bb&:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://hb.openwebmp.com failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://exchange.postrelease.com failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.cnn.com/:0
+[   40545ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.cnn.com/:0
+[   39067ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://he.lijit.com/merge?pid=8100&event_type=email&lc_md5=49623e290d260af6ad0218b9255ea3ab&lc_sha1=24675831298bbef16ffb744bb55d13ce4a25db34&lc_sha256=45ce8246fea519550de3b6b3155988e8f17ba71204449a10b5ec43eca7b9f6bb&:0
+[   10390ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   41413ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   41439ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.cnn.com/:0
+[   41442ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.cnn.com/:0
+[   41521ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.cnn.com/:0
+[   41588ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[   11771ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://partners.tremorhub.com/sync?UIIQ=c85f6c81-e482-4894-a690-c5d3f5a442ed:0
+[   11803ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://pxl.iqm.com/i/ck/pubmatic?puid=98F2DEA0-C0ED-48C3-A9F8-6D4924BF4B60:0
+[   39067ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://he.lijit.com/merge?pid=8100&event_type=email&lc_md5=49623e290d260af6ad0218b9255ea3ab&lc_sha1=24675831298bbef16ffb744bb55d13ce4a25db34&lc_sha256=45ce8246fea519550de3b6b3155988e8f17ba71204449a10b5ec43eca7b9f6bb&:0
+[   10390ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   41413ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   41875ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   39067ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://he.lijit.com/merge?pid=8100&event_type=email&lc_md5=49623e290d260af6ad0218b9255ea3ab&lc_sha1=24675831298bbef16ffb744bb55d13ce4a25db34&lc_sha256=45ce8246fea519550de3b6b3155988e8f17ba71204449a10b5ec43eca7b9f6bb&:0
+[   42579ms] Uncaught TypeError: Cannot read properties of null (reading 'parentNode')
+    at configMerge (https://ajs-assets.ftstatic.com/ftUtils.js:0:21441)
+    at i.onreadystatechange (https://ajs-assets.ftstatic.com/ftUtils.js:0:26429)
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://krk2.kargo.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://exchange.postrelease.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://hb.openwebmp.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50265ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50271ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   50857ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[   50865ms] [ERROR] Not signed in with the identity provider. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://hb.openwebmp.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://exchange.postrelease.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://krk2.kargo.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://hb.openwebmp.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://exchange.postrelease.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51354ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51357ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51357ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.cnn.com/2026/03/08/us/crime-homicide-rate-decline-us-cities:0
+[   51523ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cs.lkqd.net/cs?partnerId=59&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dlkqd_dbm%26google_hm%3D%24%24rawlkqduserid%7Cbase64%24%24:0
+[   51523ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cs.lkqd.net/cs?partnerId=59&partnerUserId=CAESEAKEYSGGwzvZOvlgfTBEqjk&gdpr=0&google_cver=1:0
+[   51697ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   51699ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   52271ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[   51697ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   51699ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   52433ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   52493ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603020101/pubads_impl.js?cb=31097036:18
+[   53790ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://su.addthis.com/red/usync?pid=11124&puid=60312335-a089-46f5-affd-ca3db31d9370&url=https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fgeneric%3fttd_pid%3daddthis:0

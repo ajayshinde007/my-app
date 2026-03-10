@@ -1,0 +1,132 @@
+[
+  {
+    "id": "parry",
+    "name": "Parry",
+    "category": "Security",
+    "description": "Scans tool inputs and outputs for prompt injection attacks, secrets, and data exfiltration attempts.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PreToolUse", "PostToolUse"],
+    "tags": ["security", "injection", "scanner"]
+  },
+  {
+    "id": "dippy",
+    "name": "Dippy",
+    "category": "Automation",
+    "description": "Auto-approves safe bash commands using AST-based parsing while prompting for destructive operations.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PreToolUse"],
+    "tags": ["bash", "safety", "automation"]
+  },
+  {
+    "id": "auto-prettier",
+    "name": "Auto Prettier",
+    "category": "Automation",
+    "description": "Automatically formats files with Prettier after Claude edits them, keeping your codebase consistently styled.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PostToolUse"],
+    "tags": ["formatting", "prettier", "linting"]
+  },
+  {
+    "id": "desktop-notifier",
+    "name": "Desktop Notifier",
+    "category": "Notifications",
+    "description": "Sends native macOS or Linux desktop notifications when Claude needs your attention or finishes a task.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["Notification", "Stop"],
+    "tags": ["notifications", "macos", "linux", "desktop"]
+  },
+  {
+    "id": "context-reinjector",
+    "name": "Context Re-injector",
+    "category": "Utility",
+    "description": "Re-injects your project context and working conventions into Claude's session after context compaction.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["SessionStart"],
+    "tags": ["context", "compaction", "utility"]
+  },
+  {
+    "id": "test-runner",
+    "name": "Test Runner",
+    "category": "Automation",
+    "description": "Runs your test suite automatically after Claude modifies code files, surfacing failures immediately.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PostToolUse"],
+    "tags": ["testing", "ci", "automation"]
+  },
+  {
+    "id": "git-branch-guard",
+    "name": "Git Branch Guard",
+    "category": "Git",
+    "description": "Prevents Claude from committing directly to main or master, enforcing branch-based workflows.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PreToolUse"],
+    "tags": ["git", "branch", "safety"]
+  },
+  {
+    "id": "slack-alerter",
+    "name": "Slack Alerter",
+    "category": "Notifications",
+    "description": "Posts a message to a Slack channel when Claude finishes a long-running task or needs user input.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["Notification", "Stop"],
+    "tags": ["slack", "notifications", "team"]
+  },
+  {
+    "id": "eslint-autofix",
+    "name": "ESLint Auto-fix",
+    "category": "Automation",
+    "description": "Runs ESLint with --fix on files after Claude edits them, keeping lint errors from accumulating.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PostToolUse"],
+    "tags": ["eslint", "linting", "formatting"]
+  },
+  {
+    "id": "sensitive-file-guard",
+    "name": "Sensitive File Guard",
+    "category": "Security",
+    "description": "Blocks Claude from reading or editing .env files, credentials, and other sensitive files you configure.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PreToolUse"],
+    "tags": ["security", "env", "credentials", "guardrail"]
+  },
+  {
+    "id": "commit-msg-enforcer",
+    "name": "Commit Message Enforcer",
+    "category": "Git",
+    "description": "Ensures commit messages follow Conventional Commits format before allowing git commit to run.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PreToolUse"],
+    "tags": ["git", "commits", "conventional-commits"]
+  },
+  {
+    "id": "typescript-checker",
+    "name": "TypeScript Checker",
+    "category": "Framework",
+    "description": "Runs tsc --noEmit after TypeScript file changes to catch type errors before Claude moves on.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["PostToolUse"],
+    "tags": ["typescript", "types", "framework"]
+  },
+  {
+    "id": "session-logger",
+    "name": "Session Logger",
+    "category": "Utility",
+    "description": "Logs session start and end times, tool usage counts, and summaries to a local file for auditing.",
+    "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+    "author": "hesreallyhim",
+    "hookEvents": ["SessionStart", "SessionEnd"],
+    "tags": ["logging", "audit", "utility"]
+  }
+]
